@@ -24,7 +24,6 @@ void topla(String? a, [String? b]) {
 void cikarma({required String? a, required String? b}) {
   // gerekli
   try {
-    print(a == null);
     if (a != null && b != null) {
       double aDouble = double.parse(a);
 
