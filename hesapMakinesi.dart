@@ -28,7 +28,7 @@ void cikarma({required String? a, required String? b}) {
       double aDouble = double.parse(a);
 
       double bDouble = double.parse(b);
-      print("$aDouble - $bDouble = ${aDouble - aDouble}");
+      print("$aDouble - $bDouble = ${aDouble - bDouble}");
     } else {
       print("a ve b parametreleri boş olamaz");
     }
